@@ -1,0 +1,62 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "hcm.fab.myprofile.HCMFAB_PRFL_MONExtension",
+        "type": "application",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "i18n": "i18n/i18n.properties"
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://personnel-view",
+            "favIcon": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_belize"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "dependencies": {
+            "minUI5Version": "1.44.47"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "hcm.fab.myprofile.HCMFAB_PRFL_MONExtension.i18n.i18n"
+                }
+            }
+        },
+        "extends": {
+            "component": "hcm.fab.myprofile",
+            "extensions": {
+                "sap.ui.controllerExtensions": {
+                    "hcm.fab.myprofile.blocks.PersInfoBankBlockController": {
+                        "controllerName": "hcm.fab.myprofile.HCMFAB_PRFL_MONExtension.blocks.PersInfoBankBlockControllerCustom"
+                    }
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.platform.abap": {
+        "uri": "/sap/bc/ui5_ui5/sap/zmy_profile_ext/webapp",
+        "_version": "1.1.0"
+    }
+}
