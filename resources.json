@@ -1,9 +1,9 @@
 {
     "resources": [
         {
-            "name": "i18n/i18n_lv.properties",
+            "name": "i18n/i18n_es.properties",
             "raw": "i18n/i18n.properties",
-            "locale": "_lv"
+            "locale": "_es"
         },
         {
             "name": "i18n/i18n_zh_CN.properties",
@@ -21,9 +21,9 @@
             "locale": "_uk"
         },
         {
-            "name": "i18n/i18n_tr.properties",
+            "name": "i18n/i18n_zh_TW.properties",
             "raw": "i18n/i18n.properties",
-            "locale": "_tr"
+            "locale": "_zh_TW"
         },
         {
             "name": "i18n/i18n_th.properties",
@@ -86,8 +86,9 @@
             "locale": "_ms"
         },
         {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "i18n/i18n_lv.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_lv"
         },
         {
             "name": "i18n/i18n_lt.properties",
@@ -150,9 +151,9 @@
             "locale": "_et"
         },
         {
-            "name": "i18n/i18n_es.properties",
+            "name": "i18n/i18n_tr.properties",
             "raw": "i18n/i18n.properties",
-            "locale": "_es"
+            "locale": "_tr"
         },
         {
             "name": "i18n/i18n_en_US_saptrc.properties",
@@ -205,9 +206,8 @@
             "locale": "_ar"
         },
         {
-            "name": "i18n/i18n_zh_TW.properties",
-            "raw": "i18n/i18n.properties",
-            "locale": "_zh_TW"
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "manifest.json"
@@ -244,6 +244,15 @@
         },
         {
             "name": "localService/metadata.xml"
+        },
+        {
+            "name": "blocks/PersInfoPersonalDataBlockCustom.view.xml"
+        },
+        {
+            "name": "blocks/PersInfoFamilyMembersBlockExpandedCustom.view.xml"
+        },
+        {
+            "name": "blocks/PersInfoFamilyMembersBlockCollapsedCustom.view.xml"
         },
         {
             "name": "visual_ext_index.html"
